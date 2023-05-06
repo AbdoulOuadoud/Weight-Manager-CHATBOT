@@ -19,7 +19,7 @@ Avant d'exécuter le code, vous devez récupérer votre clé API OpenAI et la co
 
   openai.api_key = "VOTRE_CLÉ_API_OPENAI"
 
-#Utilisation
+# Utilisation
 
 Une fois que vous avez configuré votre clé API, vous pouvez exécuter le code en utilisant la commande suivante :
 
