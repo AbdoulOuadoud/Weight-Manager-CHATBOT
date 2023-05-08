@@ -33,9 +33,9 @@ def generer_programme_nutritionnel(sexe, age, taille, poids, niveau_activite, ob
     # Générer le programme nutritionnel
     prompt = (
         f"Je suis un Chatbot qui peut vous aider à établir un programme nutritionnel personnalisé en fonction de vos besoins.\n\n"
-        f"Mon client est un(e) {sexe.lower()} de {age} ans, mesurant {taille} cm pour un poids de {poids} kg, et qui a un niveau d'activité physique {niveau_activite.lower()}.\n\n"
-        f"Leur objectif est {objectif.lower()}.\n\n"
-        f"Pour atteindre cet objectif, voici un programme nutritionnel personnalisé qui devrait les aider à atteindre leurs objectifs :"
+        f"Il s'agit d'un(e) {sexe.lower()} de {age} ans, mesurant {taille} cm pour un poids de {poids} kg, et qui a un niveau d'activité physique {niveau_activite.lower()}.\n\n"
+        f"Son objectif est {objectif.lower()}.\n\n"
+        f"Pour atteindre cet objectif, voici un programme nutritionnel et un programme de gym qui devrait l'aider:"
     )
 
     # Vérifier si le résultat est présent dans le cache
