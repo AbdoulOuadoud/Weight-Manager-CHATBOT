@@ -8,20 +8,26 @@ Pour exécuter ce code, vous devez installer les bibliothèques Python suivantes
   openai
   streamlit
 
-Vous pouvez les installer en utilisant pip :
+En effet, un gestionnaire d'environnment de travail python vous allegera la tâche concernat les dépendances. 
 
-  pip install openai
-  pip install streamlit
+Ceci dit, commencez par intaller pipenv: 
+  pip install pipenv
+
+Ensuite créez votre environnement:
+  pipenv install
+
+Pour activer l'environnement créé: 
+  pipenv shell
 
 # Configuration de l'API
 
 Avant d'exécuter le code, vous devez récupérer votre clé API OpenAI et la configurer dans le code. Assurez-vous d'avoir une clé valide pour pouvoir accéder aux fonctionnalités de génération de texte de l'API.
-
-  openai.api_key = "VOTRE_CLÉ_API_OPENAI"
+Ensuite créez un fichier .env puis collez y votre clé comme suit
+  API_KEY = "VOTRE_CLÉ_API_OPENAI"
 
 # Utilisation
 
-Une fois que vous avez configuré votre clé API, vous pouvez exécuter le code en utilisant la commande suivante :
+Une fois que vous avez configuré votre clé API, et que vous avez votre environnement activé, vous pouvez exécuter le code en utilisant la commande suivante :
 
   streamlit run nom_du_fichier.py
 
@@ -36,6 +42,12 @@ De plus, veuillez faire attention à ne pas partager votre clé API OpenAI avec 
 # Contributions
 
 Les contributions à l'amélioration de ce programme sont les bienvenues. Si vous trouvez des problèmes ou souhaitez ajouter de nouvelles fonctionnalités, n'hésitez pas à ouvrir une demande d'extraction sur GitHub.
+
+Actuellement, les fonctionalités sur les quels des reflexions peuvent être menées sont:
+    - System de caching global pour tout les Programmes de Nutritions à la foi
+    --
+    --
+    --
 
 # Avertissement
 
