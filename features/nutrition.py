@@ -49,6 +49,7 @@ class ProgramGenerator:
         """
         Return the data saved in cache
         """
+        return self._cache
 
     def get_basic_caloric_need(self):
         """
